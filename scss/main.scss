@@ -155,8 +155,8 @@ html {
             @media screen and (min-width: partials.$desktop) {
                 background-color: partials.$white;
                 flex-direction: row;
-                padding: 1.6rem;
-                column-gap: 10rem;
+                justify-content: space-around;
+                padding: 1.6rem 0;
 
                 &__header {
                     width: 27.4rem;
@@ -190,6 +190,10 @@ html {
                     color: partials.$light-blue;
                 }
 
+                &__form-wrapper {
+                    align-self: center;
+                }
+
                 &__step-subtitle {
                     color: partials.$white;
                     font-size: 14px;
@@ -199,7 +203,7 @@ html {
                 &__info { 
                     position: relative;
                     width: 100%;
-                    top: 3%;
+                    top: 0;
                 }
 
                 &__action-wrapper { 

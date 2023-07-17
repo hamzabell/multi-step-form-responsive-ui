@@ -135,8 +135,8 @@ html body .container__action {
   html body .container {
     background-color: #fff;
     flex-direction: row;
-    padding: 1.6rem;
-    column-gap: 10rem;
+    justify-content: space-around;
+    padding: 1.6rem 0;
   }
   html body .container__header {
     width: 27.4rem;
@@ -164,6 +164,9 @@ html body .container__action {
     font-size: 12px;
     color: #ABBCFF;
   }
+  html body .container__form-wrapper {
+    align-self: center;
+  }
   html body .container__step-subtitle {
     color: #fff;
     font-size: 14px;
@@ -172,7 +175,7 @@ html body .container__action {
   html body .container__info {
     position: relative;
     width: 100%;
-    top: 3%;
+    top: 0;
   }
   html body .container__action-wrapper {
     padding-right: 0;
